@@ -28,7 +28,7 @@ app.use(loginoperation);
 
 mongoose.set("strictQuery",false);
 mongoose.
-connect('mongodb+srv://admin:Shingeki98@devprueba.cpqivrc.mongodb.net/Node-Api?retryWrites=true&w=majority')
+connect(process.env.DB_STRING)
 .then(()=>{
     console.log('connected to mongo');
     app.listen(port, () => console.log(`Example app listening on port ${port}!`));
