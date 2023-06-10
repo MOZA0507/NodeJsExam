@@ -8,7 +8,9 @@
 
 ### Instalación
 Descargar el repositorio
-
+``` [language]
+git clone
+```
 Verificar tener node y npm instalados con comandos:
 ``` [language]
 node -v
