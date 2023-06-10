@@ -9,7 +9,7 @@
 ### Instalación
 Descargar el repositorio
 ``` [language]
-git clone
+git clone https://github.com/MOZA0507/NodeJsExam.git
 ```
 Verificar tener node y npm instalados con comandos:
 ``` [language]
